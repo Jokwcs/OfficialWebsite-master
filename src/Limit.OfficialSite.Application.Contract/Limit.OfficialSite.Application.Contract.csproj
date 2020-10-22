@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>Limit.OfficialSite.Application</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Limit.OfficialSite\Limit.OfficialSite.csproj" />
+    <ProjectReference Include="..\Limit.OfficialSite.Domain.Shared\Limit.OfficialSite.Domain.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

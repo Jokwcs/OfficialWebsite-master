@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>Limit.OfficialSite</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Limit.OfficialSite.Application.Contract\Limit.OfficialSite.Application.Contract.csproj" />
+    <ProjectReference Include="..\Limit.OfficialSite.Domain\Limit.OfficialSite.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
